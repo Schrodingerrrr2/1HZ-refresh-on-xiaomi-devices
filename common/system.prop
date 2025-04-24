@@ -1,0 +1,5 @@
+#降低闲置刷新率触发阈值（最低亮度也可触发）
+persist.vendor.disable_idle_fps.threshold=10
+#启用刷新率最低1hz显示
+ro.vendor.display.primary_idle_refresh_rate=60,1:10
+ro.vendor.mi_sf.aod_mode_ddic_refresh_rate=1
